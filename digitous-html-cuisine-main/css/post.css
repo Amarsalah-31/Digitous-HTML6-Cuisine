@@ -1,0 +1,38 @@
+.header {
+    background-image: url('../img/articles/suzette/suzette-header.jpg');
+    background-repeat:no-repeat;
+    background-size: cover;
+    height: 450px;
+    z-index: 1;
+    color: #fff;
+}
+
+.opacity {
+    opacity: 0.5;
+}
+
+.bg-navbar {
+    background-color: #000;
+    opacity: 0.9;
+}
+
+
+.bg-text {
+    background: #000;
+    padding-top: 5px;
+}
+
+.first-letter::first-letter {
+    float: left;
+    font-size: 4rem;
+    font-weight: bold;
+    line-height: 30px;
+    padding: 6px;
+    color: rgb(158, 157, 157);
+
+}
+
+.img-white {
+    background: gray;
+    border-radius: 50px;
+}
